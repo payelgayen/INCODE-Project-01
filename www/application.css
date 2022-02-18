@@ -118,9 +118,6 @@ h2 {
   margin-right: auto;
 }
 
-@media screen and (max-width: 768px) {
-}
-
 .btn {
   display: block;
   margin-left: auto;
@@ -255,21 +252,14 @@ h2 {
 
 /* About us */
 
-.firstimage img {
+.image img {
   height: 700px;
-  width: 430px;
-  display: flex;
-  padding-left: 60%;
-  padding-bottom: 10%;
-  
+  width: 500px;
 }
 
 .secondimage img {
-  height: 500px;
-  width: 400px;
-  display: flex;
-  padding-left: 5%;
-  padding-bottom: 10%;
+  height: 600px;
+  width: 600px;
 }
 
 /* Contact */
@@ -280,25 +270,63 @@ h2 {
   text-align: center;
 }
 
+.content-container {
+  display: flex;
+  margin: 20px 20px;
+  gap: 60px;
+}
+
+.sentence-section {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.sentence-section h2 {
+  font-size: 40px;
+}
+
+.section-container {
+  display: flex;
+  gap: 100px;
+  padding: 50px 70px;
+}
+
+.secondimage img {
+  width: fit-content;
+}
+
 .contactcontainer {
   width: 100%;
   padding: 40px;
   padding-left: 300px;
 }
 .address-details {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Roboto", sans-serif;
   padding-bottom: 20px;
- 
 }
 
 .mail-details {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Roboto", sans-serif;
   padding-bottom: 40px;
-  
 }
 .content .image {
-    align-content: center;
-    justify-content: center;
+  align-content: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .holding-container {
+    flex-direction: column;
+  }
+
+  .logowithsentence {
+    margin-left: -100px;
+  }
+
+  .imagewithsentence {
+    margin-left: -100px;
+  }
 }
