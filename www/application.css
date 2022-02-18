@@ -292,12 +292,7 @@ h2 {
   padding: 50px 70px;
 }
 
-.secondimage img {
-  width: fit-content;
-}
-
 .contactcontainer {
-  width: 100%;
   padding: 40px;
   padding-left: 300px;
 }
