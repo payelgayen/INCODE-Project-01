@@ -345,4 +345,12 @@ h2 {
   .sentence-section {
     padding-bottom: 50px;
   }
+
+  .contactcontainer {
+    padding-left: 50px;
+  }
+
+  .contactcontainer img {
+    padding-left: 0px;
+  }
 }
