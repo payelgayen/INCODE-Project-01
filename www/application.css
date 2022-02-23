@@ -324,4 +324,25 @@ h2 {
   .imagewithsentence {
     margin-left: -100px;
   }
+
+  .content-container {
+    flex-direction: column;
+  }
+  .section-container {
+    flex-direction: column;
+    padding: 0px 20px;
+    gap: 10px;
+  }
+
+  .image img {
+    padding-left: 50px;
+  }
+
+  .secondimage img {
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+  .sentence-section {
+    padding-bottom: 50px;
+  }
 }
